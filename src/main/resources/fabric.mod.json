@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fixlag",
+  "version": "${version}",
+  "name": "FixLag",
+  "description": "One-key FPS booster: cycles through low-lag levels and restores your original video settings.",
+  "authors": ["FixLag contributors"],
+  "contact": {
+    "homepage": "https://github.com/",
+    "sources": "https://github.com/",
+    "issues": "https://github.com/"
+  },
+  "license": "MIT",
+  "icon": "assets/fixlag/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fixlag.FixLagClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
